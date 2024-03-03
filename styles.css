@@ -42,20 +42,44 @@ button:hover {
 }
 
 .card {
-    width: 150px;
-    height: 220px; /* portrait card size */
+    width: 400px;
+    height: 200px;
     margin: 10px;
     padding: 20px;
     text-align: center;
-    /* background-color: #fff; */
-    border: 1px solid #000; /* fine black border */
+    background-color: #fff;
+    border: 5px solid #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     transition: transform 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-5px);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: auto;
+    color: #fff
+}
+
+.detail {
+    font-size: 40px;
+    overflow-wrap:calc();
+    margin-bottom: auto;
+    font-weight: bold;
+    color: #fff
+}
+
+.subtitle {
+    font-size: 14px;
+    color: rgb(219, 219, 219);
+    font-style: italic;
 }
 
 #Arc-card {
