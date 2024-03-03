@@ -149,7 +149,7 @@ body {
     font-size: 14px;
     font-weight: 100;
     color:rgb(116, 116, 116);
-    max-width: 500px;
+    max-width: 400px;
 }
 
 @media (max-width: 650px) {
