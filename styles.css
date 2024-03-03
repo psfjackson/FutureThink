@@ -5,23 +5,38 @@ body {
     padding: 0;
 }
 
+.shell {
+    margin: 0px 20px 
+}
+
 .container {
     max-width: 1200px;
-    margin: 50px auto;
+    margin: auto;
+    margin-bottom: 50px;
     padding: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    text-align: center;
-    color: #333;
+.header {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    margin: auto;
+    padding: 20px 20px;
 }
 
-button {
-    display: block;
-    margin: 20px auto;
+.h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color:rgb(39, 39, 39)
+}
+
+.gen {
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -29,11 +44,29 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-left: auto; /* Align button to the right */
 }
 
-button:hover {
-    background-color: #0056b3;
+
+#menu {
+    padding: 10px 20px;
+    background-color: #007bff00;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: auto; /* Align button to the right */
 }
+
+#menu:hover {
+    background-color: #0057b327;
+}
+
+.gen:hover {
+    background-color: #0057b3;
+}
+
 
 #cards-container {
     display: flex;
@@ -42,8 +75,8 @@ button:hover {
 }
 
 .card {
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 150px;
     margin: 10px;
     padding: 20px;
     text-align: center;
