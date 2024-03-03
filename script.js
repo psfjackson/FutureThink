@@ -24,7 +24,9 @@ function displayCards(cards) {
     for (const topic in cards) {
         const card = document.createElement("div");
         card.classList.add("card");
+        card.id = `${topic}-card`; // Unique ID for each card
         card.innerText = `${topic}: ${cards[topic]}`;
         container.appendChild(card);
     }
 }
+
