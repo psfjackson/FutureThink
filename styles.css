@@ -90,6 +90,13 @@ body {
     transition: transform 0.3s ease;
 }
 
+
+.card:nth-child(1),
+.card:nth-child(2) {
+    width: 215px; /* Half the height of other cards */
+    font-size: 20px;
+}
+
 .card:hover {
     transform: translateY(-5px);
 }
@@ -102,20 +109,20 @@ body {
 }
 
 .detail {
-    font-size: 40px;
+    font-size: 30px;
     overflow-wrap:calc();
     margin-bottom: auto;
     font-weight: bold;
     color: #fff
 }
 
-.subtitle {
-    font-size: 14px;
-    color: rgb(219, 219, 219);
-    font-style: italic;
-}
 
 #Arc-card {
+    background-color: #ff6b6b; /* Red for Arc */
+    /* color: #fff; */
+}
+
+#Timeline-card {
     background-color: #ff6b6b; /* Red for Arc */
     /* color: #fff; */
 }
