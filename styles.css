@@ -141,3 +141,16 @@ body {
     background-color: #4b7bec; /* Blue for Mood */
     /* color: #fff; */
 }
+
+
+@media (max-width: 650px) {
+    .card:nth-child(1),
+.card:nth-child(2) {
+    width: 500px; /* Half the height of other cards */}
+
+    .gen {
+        width: 100px ;
+    }
+   
+
+    }
